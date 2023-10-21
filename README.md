@@ -1,9 +1,18 @@
-# ios-duke-directory
+# Duke Directory iOS Mobile App
 
 ## Project Overview
+Developing a feature-rich iOS directory application using Swift and Xcode, the primary goal is to deliver a smooth user experience for searching, adding, and editing Duke person records stored in the database. This project leverages the power of SwiftUI for the front-end, enhancing the UI with animations, graphics, and more.
 
 ## Key Features
+SwiftUI Front-End: Utilizing SwiftUI to build an intuitive and visually appealing user interface that adapts seamlessly to different Apple devices.
 
+Animation and Graphics: Incorporating animations and graphics to enhance user engagement and create an aesthetically pleasing user experience.
+
+Database Integration: Connecting the application to a backend database system for secure storage and retrieval of Duke person records.
+
+RESTful API Infrastructure: Designing a RESTful API architecture to enable smooth CRUD (Create, Read, Update, Delete) operations, with data transmission in JSON format between the front-end and back-end servers.
+
+Search Functionality: Implementing robust search features, allowing users to efficiently find Duke person records based on various criteria.
 ## Picture Demo
 
 ## Getting Started
