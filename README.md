@@ -1,6 +1,65 @@
 # ios-duke-directory
 
-# HW 5
+## Project Overview
+
+## Key Features
+
+## Picture Demo
+
+## Getting Started
+
+Creating a robust iOS directory application using Swift and Xcode, I aim to provide users with a seamless experience for searching, adding, and editing duke person records stored in the database. To accomplish this, I've designed a RESTful API infrastructure that facilitates CRUD (Create, Read, Update, Delete) operations, transmitting data in JSON format between the front-end and the back-end server.
+
+
+
+## HW6 - Tabs, Graphics, Animation
+Due: Fri Oct 20, 2023 12:00pm
+
+
+
+
+In this Assignment, you will use a Tab View, create a GroupView, and improve your PersonView with Attributed Text, image, graphics and animation.  Here are the specifics:
+
+Start from your HW5 base. 
+- [x] Make your ContentView (main view) a TabView, like in the Apple Tutorial.
+- [x] Your existing List View will be the first tab - call it "List"
+- [x] You will add a second main view - call it "Groups".  More on this below.
+
+Group View
+- [x] The Group View is meant to show related groups of DukePersons.  Just like in the "Featured" tab of the Apple Demo, you will have side-scrolling groups with titles above.
+- [x] Each element of the group will consist of a person's picture and their name underneath
+- [x] If you click on one of the elements, you go to their PersonView. 
+- [x] You cannot get to the Edit View from here - just go to the read-only PersonView.
+- [x] By default, you will have all the Teams as groups - so you will have team name, followed below with a side-scrolling view of team members
+- [x] Add an Add ("+") button to the toolbar / navbar.
+- [x] When the Add button is selected, show a pop-up or new View that take for input a new Group name and a "filter".  The "filter" should work off of your Find code from HW1.  For example, if could create a new Group called "Swimmers" and for the Filter I would put "ho=swim" and press a Button to "Save". When the button is pressed, you will add an element to your Group View entitled "Swimmers" with a side-scroll view of all the people that matched that.  NOTE:  The View should always be up to date.  That is, if I add new person and they are a swimmer, then I come back to the Groups tab, I should see that new person in the group.
+    - Note: the filter feature is case-insensitive, but it cannot apply to the variants of the word. For example, it "ho=swim" can match whose hobby is "Swim" or "SWIM", but can not match whose hobby is "swimming". 
+
+Updates to the PersonView
+- [x] We saw some nice PersonViews in previous homework, now it is time to make everyone's PersonView even nicer.  NOTE:  If you have done some of this work already, you can't get credit for it again.  You need to change or add the following new features:
+
+- [x] Put some attributed text in the View - color, font, bold, flashing, whatever.
+    - Color aligned, font (monospace..)
+    - Hyperlink
+        - When click on the email, it should direct to the email app (unfortunately not in the simulator)
+        - When click on the from, it directs to the google maps showing this area.
+        - When click on the movie, it directs to the google page of the movie.
+        - When click on the language badges, it directs to the google page of the language.
+        
+- [x] Use an Image somewhere on the page (other than the picture of the person)
+    - I use the the blue devil as the showroom entry to the website, when clicking on this, it will direct to the showroom website.
+    
+- [x] Create a Graphic, similar to something like Badge, Hike Graph, etc in the Apple Tutorial, and have it on the View.  Remember, a Graphic is something you build with drawing orders (GeometryReader, Segment, Path, Fill, etc). 
+    - Language Badges created by func path. 
+    
+- [x] Make something move on the screen - that is - Animation!  It can grow/shrink, it can bounce around the screen, go from side to side, etc.
+    - The Animation of DUID String when loading.
+    
+- [x] The more creative the better, so put some thought into it.  It would be even better if the visuals change based on the person,  for example, maybe you have an array of all the hobbies that you match up with a set of icons or emojis.  Based on what the person's hobby is dictates which Image or Graphic you put or animate on the View.  Same could be done with Movies, Languages, etc.
+
+
+
+## HW 5
 
 In HW5, we will continue to enhance our SwiftUI app from HW4 with new features and functions.  Please do not add functions that are not listed - you will only receive Extra Points for the items listed in the Rubric.
 
